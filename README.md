@@ -9,3 +9,4 @@ python -W ignore programme.py
 
 The code being lauch you will have to answer several questions concerning the Inner working angle you want to use and your limit of contrast.
 
+![hi5_targets](https://user-images.githubusercontent.com/43030278/45150025-34603d80-b1cb-11e8-805f-bd1583c8ecfe.png)
