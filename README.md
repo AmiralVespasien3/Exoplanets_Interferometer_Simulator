@@ -2,7 +2,7 @@
 
 Contains the python files to launch the simulation
 
-This code computes which among the known exoplanets would be observable with interferometric devices as the VLTi or the LIFE interferometer or with any direct imaging device.
+This code computes the list of known exoplanets that would be observable with an imaging or interferometric instrument based on assumptions on the wavelength, inner working angle and contrast. It also produces overview plots as shown below.
 
 To launch the code, please locate yourself in the directory containing the 'programme.py' file and use the command :
 python -W ignore programme.py
