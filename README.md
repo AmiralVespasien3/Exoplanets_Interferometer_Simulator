@@ -1,4 +1,4 @@
-# Exoplanets_Interferometer_Simulator
+# Exoplanets Interferometer Simulator
 
 Contains the python files to launch the simulation
 
