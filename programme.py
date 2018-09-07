@@ -1,17 +1,24 @@
 #!/usr/bin/env python
 # coding: utf-8
 
+import warnings
+import sys
+
 import encodings
 import numpy as np
 
 import time
 start_time = time.time()
 
-
 from pylab import *
 from variables import *
 from fonctions import *
 from Graphique import *
+
+
+if not sys.warnoptions:
+    import warnings
+    warnings.simplefilter("ignore")
 
 ###############################################################################
 #CALCUL DES FLUX
