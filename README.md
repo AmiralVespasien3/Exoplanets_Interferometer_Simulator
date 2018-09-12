@@ -1,4 +1,4 @@
-# Exoplanets Interferometer Simulator
+# Exoplanets Imaging Yield Simulator
 
 Contains the python files to launch the simulation
 
