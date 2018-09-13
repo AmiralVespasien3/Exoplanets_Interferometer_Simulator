@@ -4,6 +4,8 @@ This code computes the list of known exoplanets that would be observable with an
 
 The planetery flux is the sum of the PLanck thermic flux and the relective flux for a bond albedo of 0.3 (Earth or Jupiter values) 
 
+![equattion_flux](https://user-images.githubusercontent.com/43030278/45496411-ac070d00-b775-11e8-9b6d-5d5546ca4472.png)
+
 To launch the code, please locate yourself in the directory containing the 'programme.py' file and use the command : python programme.py
 
 ![figure1](https://user-images.githubusercontent.com/43030278/45350395-00628f00-b5b4-11e8-84c0-cbd836f5ea9d.png)
