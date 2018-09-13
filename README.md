@@ -1,8 +1,8 @@
 # Exoplanet Imaging Yield Simulator
 
-Contains the python files to launch the simulation
-
 This code computes the list of known exoplanets that would be observable with an imaging or interferometric instrument based on assumptions on the wavelength, inner working angle and contrast. It also produces overview plots as shown below.
+
+The planetery flux is the sum of the PLanck thermic flux and the relective flux for a bond albedo of 0.3 (Earth or Jupiter values) 
 
 To launch the code, please locate yourself in the directory containing the 'programme.py' file and use the command : python programme.py
 
