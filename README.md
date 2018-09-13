@@ -2,7 +2,7 @@
 
 This code computes the list of known exoplanets that would be observable with an imaging or interferometric instrument based on assumptions on the wavelength, inner working angle and contrast. It also produces overview plots as shown below.
 
-The planetery flux is the sum of the PLanck thermic flux and the relective flux for a bond albedo of 0.3 (Earth or Jupiter values) 
+The planetery flux is the sum of the PLanck thermic flux and the reflective flux for a bond albedo of 0.3 (Earth or Jupiter values) 
 
 ![equattion_flux](https://user-images.githubusercontent.com/43030278/45496411-ac070d00-b775-11e8-9b6d-5d5546ca4472.png)
 
