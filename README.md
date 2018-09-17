@@ -8,6 +8,8 @@ The planetery flux is the sum of the Planck thermal flux and the reflected flux 
 
 To launch the code, please locate yourself in the directory containing the 'programme.py' file and use the command : python programme.py
 
+Requirements: 
+
 ![figure1](https://user-images.githubusercontent.com/43030278/45497308-c0e4a000-b777-11e8-92f6-40b26b2607c8.png)
 ![figure2](https://user-images.githubusercontent.com/43030278/45350400-02c4e900-b5b4-11e8-838e-378aad9391ff.png)
 ![figure3](https://user-images.githubusercontent.com/43030278/45497382-effb1180-b777-11e8-8836-67a8abe94be1.png)
