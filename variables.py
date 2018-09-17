@@ -3,10 +3,6 @@
 # programme.py
 
 from pylab import *
-import mr_forecast as mr
-
-
-
 
 ###########################################################################################
 #CONSTANTES FONDAMENTALES
