@@ -74,7 +74,7 @@ def signif(x, digit):
 #################################################################################
 '''ALGORIHME PRINCIPAL'''
 #################################################################################
-def Cibles(L,R,C,F_p,Time,T_max):
+def Cibles(L,R,C,F_p,F_rp,Time,T_max):
 
 	# AFFICHAGE DES CIBLES SELECTIONNÉES
 
@@ -163,7 +163,7 @@ def Cibles(L,R,C,F_p,Time,T_max):
 	fichier_1.write("\nNORTHERN HEMISPHERE \n")
 	###################################################################################
 
-	fichier_1.write( "R_J" + '\t\t\t' + "°K" + '\t\t\t' + "mas" + '\t\t\t' + 'FLux(Jy)' + '\t' + 'Contrast' + '\t')
+	fichier_1.write( "R_J" + '\t\t\t' + "°K" + '\t\t\t' + "mas" + '\t\t\t' + 'FLux(Jy)' + '\t' + 'R Flux(Jy)' + '\t' + 'Contrast' + '\t')
 
 	for i in range(0,len(D[0])):
 
@@ -183,7 +183,10 @@ def Cibles(L,R,C,F_p,Time,T_max):
 			 + str("%.2e" % D[17][i]) 
 			 +'\t'
 			 + str("%.2e" % F_p[i]) 
-			 + '\t'+ str("%.2e" % C[i])
+			 + '\t'
+			 + str("%.2e" % F_rp[i]) 
+			 + '\t'
+			 + str("%.2e" % C[i])
 			 + '\t' 
 			 + str(D[7][i]) 
 			 + '\t' 
@@ -193,7 +196,7 @@ def Cibles(L,R,C,F_p,Time,T_max):
 	fichier_1.write("\n\nSOUTHERN HEMISPHERE\n")
 	##################################################################################
 
-	fichier_1.write( "R_J" + '\t\t\t' + "°K" + '\t\t\t' + "mas" + '\t\t\t' + 'FLux(Jy)' + '\t' + 'Contrast' + '\t' )
+	fichier_1.write( "R_J" + '\t\t\t' + "°K" + '\t\t\t' + "mas" + '\t\t\t' + 'FLux(Jy)'+ '\t' + 'R Flux(Jy)' + '\t' + 'Contrast' + '\t' )
 
 	for i in range(0,len(D[0])):
 
@@ -213,6 +216,8 @@ def Cibles(L,R,C,F_p,Time,T_max):
 			 + str("%.2e" % D[17][i]) 
 			 +'\t'
 			 + str("%.2e" % F_p[i]) 
+			 + '\t'
+			 + str("%.2e" % F_rp[i])
 			 + '\t'
 			 + str("%.2e" % C[i])
 			 + '\t'
