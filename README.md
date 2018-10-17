@@ -16,6 +16,5 @@ The instructions to download the code are as follows:
 To launch the code, please locate yourself in the directory containing the 'main.ipynb' file and use the command : jupyter-notebokk
 
 ![fig1](https://user-images.githubusercontent.com/43030278/45622134-3e175a00-ba83-11e8-8a94-1d35d35bd594.png)
-![figure2](https://user-images.githubusercontent.com/43030278/45350400-02c4e900-b5b4-11e8-838e-378aad9391ff.png)
 ![figure3](https://user-images.githubusercontent.com/43030278/45497382-effb1180-b777-11e8-8836-67a8abe94be1.png)
 ![figure4](https://user-images.githubusercontent.com/43030278/45350412-06f10680-b5b4-11e8-9282-579457a1ea6e.png)
