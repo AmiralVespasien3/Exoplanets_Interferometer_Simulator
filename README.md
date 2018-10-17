@@ -13,7 +13,7 @@ The instructions to download the code are as follows:
 2/ Tick the boxes : CSV format, Download All Rows, Download All columns, Values Only (...)
 3/ Click on 'Download Table'
 
-To launch the code, please locate yourself in the directory containing the 'main.ipynb' file and use the command : jupyter-notebokk
+To launch the code, please locate yourself in the directory containing the 'main.ipynb' file and use the command : jupyter-notebook
 
 ![fig1](https://user-images.githubusercontent.com/43030278/45622134-3e175a00-ba83-11e8-8a94-1d35d35bd594.png)
 ![figure3](https://user-images.githubusercontent.com/43030278/45497382-effb1180-b777-11e8-8836-67a8abe94be1.png)
